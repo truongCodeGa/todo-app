@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: rgb(2, 0, 36);
+  background: linear-gradient(
+    to right,
+    rgb(48, 47, 66) 0%,
+    rgb(86, 86, 114) 45%,
+    rgb(181, 194, 197) 100%
+  );
+}
+/* .hoverItem:hover {
+  background: bisque;
+  color: cornflowerblue;
+}
+.hoverItem {
+  font-size: 16px;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  padding: 4px;
+  border-bottom: solid 1px wheat;
+}
+.hoverItem > .Icon {
+  font-size: 20px;
+  display: inline-block;
+  margin-top: -4px;
+} */
